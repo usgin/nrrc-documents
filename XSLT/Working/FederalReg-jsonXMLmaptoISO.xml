@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<!--/gmd:hierarchyLevelName -->
+  <type>Notice</type>
+<!-- not sure what this is supposed to be. They seem to put ageny names in it.-->
+  <toc_doc>Agency Information Collection Activities; Proposals, Submissions, and Approvals</toc_doc>
+<!-- gmd:citation//gmd:title/gco:CharacgterString -->
+  <title>Agency Information Collection Extension</title>
+<!-- not sure what page_length is -->
+  <page_length>5</page_length>
+  
+  
+  <!-- we are currently using aggregate info,not citation for identifier/code -->
+  
+<!-- gmd:citation//gmd:identifier/gmd:code.  codespace= federalregister docket ID"-->
+  <mods_url>http://www.gpo.gov/fdsys/granule/FR-2014-08-22/2014-19960/mods.xml</mods_url> 
+  <!--
+  "body_html_url": "distribution, gmd:CI_OnlineResource//gmd:URL, gmd:linkage/gmd:name is 'federal register body html link, protocol is http, function is download.",
+            "agency_names": [
+                "gmd:citation//gmd:responsibleParty//gmd:organization.  concatenate multiple values with comma delimiter",
+                "second part of org name, see above"
+  -->
+<!-- for start_page, gmd:citation//gmd:series//gmd:page/gco:CharacterString; concatenate 'start_page' & '-' & 'end_page' to form the characgter string" -->
+  <start_page>49770</start_page>
+  <!--
+   "regulation_id_number_info": {"documentation":"this is not used in many records; need more explanation to understand.  (http://www.whitehouse.gov/sites/default/files/omb/assets/inforeg/IncreasingOpenness_04072010.pdf) Executive Order 12866, Sec. 4(b) requires each regulatory action in the Unified Regulatory Agenda—a semiannual compendium of all regulations under development or review—to contain, among other things, a RIN. The RIN should be used on documents including, but not limited to, notices of proposed rule making, final rules, and (to the extent that they are associated with a rule making) notices, guidances, environmental impact statements, regulatory impact analyses, information collections, and supporting materials. The RIN should be carried throughout the process, including in the metadata/text when documents are published in the Federal Register and on Regulations.gov. "},
+  -->
+ <!-- assume effective_on is a date... put in gmd:citation//gmd:date@role='effective_date' @codespace='federal_register') -->
+  <effective_on/>
+<!-- this is how things in the federal register are cited; another gmd:citation//gmd:identifier//gmd:code@codespace='federal register identifier-->
+  <citation>79 FR 49770</citation>
+  <!-- no explanation of what this is -->
+  <subtype/>
+  <!--
+  "president": {
+                "identifier": "barack-obama",
+                "name": "Barack Obama",
+                "SMRdocumentation":"this could be a keyword, with thesaurus = 'us presidents', but I don't think we need to carry this info"
+  -->
+ <!-- .txt: Distribution, gmd:name='txt metadata', protocol = http", -->
+  <raw_text_url>https://www.federalregister.gov/articles/text/raw_text/201/419/960.txt</raw_text_url>
+ <!--"json_url": .json: Distribution, gmd:name='json metadata', protocol = http", -->
+  <json_url>https://www.federalregister.gov/api/v1/articles/2014-19960.json</json_url>
+ <!--"dates": "e.g. 'This rule is effective on October 3, 2014.' SMRdocumentation: looks like free text, explanation of dateType and then a free-form calendar data.  This would have to be parsed by a person to encode gmd:citation//gmd:date@dateType", -->
+  <dates>To ensure consideration, comments regarding this collection must be received on or before September 22, 2014. The Paperwork Reduction Act requires OMB to make a decision on the extension of the ICR within 60 days after this publication or receipt of the proposed collection of information, whichever is later. If you anticipate that you will be submitting comments, but find it difficult to do so within the period of time allowed by this notice, please advise the DOE Desk Officer at OMB of your intention to make a submission as soon as possible. You may phone the Desk at 202-395-4718.</dates>
+<!--
+"cfr_references": ["SMRdocumentation":"The Code of Federal Regulations (CFR) provides a listing of the rules and regulations of the Federal Government. The CFR is divided into 50 broad titles that are then split into chapters and sections. Follow these guidelines to cite the Code of Federal Regulations in a document: http://www.wikihow.com/Cite-the-Code-of-Federal-Regulations. Examples in this document have a 'title' and a 'part' property in this object."]
+-->
+<!--abstract": "SMRdocumentation free text summary of the notification, gmd:abstract -->
+  <abstract>Western Area Power Administration (Western), an agency within the Department of Energy (DOE), has submitted an extension to an existing Information Collection Request (ICR) to the Office of Management and Budget (OMB) for review, comment and approval, as required under the Paperwork Reduction Act of 1995. The ICR seeks a 3- year extension for Western's Applicant Profile Data form (APD), OMB Control No. 1910-5136. The ICR described below identifies the request, including the anticipated public burdens. The ICR is necessary for the proper performance of Western's functions. Western markets a limited amount of Federal power. Due to the high demand for Western's power and limited amount of available power, Western needs to be able to collect information under the ICR to evaluate who will receive an allocation. This public process only determines the information Western will collect in its ICR. The actual allocation of Federal power will be done through a separate process and is outside the scope of this notice.</abstract>
+  <!--toc_subject": "e.g.: 'Importers of Controlled Substances; Registrations:' SMRdocumentation: gmd:keyword, thesaurus 'federal register toc subject'. -->
+  <toc_subject/>
+  <!--  No instruction****************************************************** -->
+  <regulations_dot_gov_url>http://www.regulations.gov/#!documentDetail;D=WAPA_FRDOC_0001-0216</regulations_dot_gov_url>
+  <!--executive_order_number": "SMRdocumentation: identifier number for executive order related to this notification; if the entry is a bout the executive order, this is another gmd:citation//gmd:identifier//gmd:code@codspace='us presidential executive order number'-->
+  <executive_order_number/>
+  
+  <!--  No instruction ******************************************************* -->
+  <body_html_url>https://www.federalregister.gov/articles/html/full_text/201/419/960.html</body_html_url>
+  <!--signing_date": "SMRdocumentation: assume this is an ISO 8601 YYYY-MM-DD date when the exectutive order was signed-->
+  <signing_date/>
+  <!--
+  "pdf_url": "e.g. 'http://www.gpo.gov/fdsys/pkg/FR-2014-09-04/pdf/2014-21083.pdf'  another distribution for the notice, gmd:name/gco:CharacterSting='adobe acrobate version of notification'",
+  -->
+  <!-- No instruction ******************************************************-->
+  <regulation_id_number_info/>
+  <!--executive_order_notes": "SMRdocumentation: assume this is free text about the executive order? -->
+  <executive_order_notes/>
+  
+  <!-- SMRdocumentation":"'agencies' apparently extends the 'agency_name' element (above) with some duplication of content. The 'agencies.name' seems to be same as the 'agency_name' json key. Looks like some legacy baggage here."-->
+  <agencies>
+    <item>
+	<!--"SMRdocumentation: integer value, id for parent agency if it exists. not clear where the registry of agencies resides...",-->
+      <parent_id/>
+	  <!--"e.g. 'DEPARTMENT OF JUSTICE' SMRdocumentation: skos:prefLabel, put in gmd:organisationName/gco:CharacterSting",-->
+      <raw_name>DEPARTMENT OF ENERGY</raw_name>
+	  <!--"e.g. 'https://www.federalregister.gov/api/v1/agencies/268.json' gmd:CI_ResponsibleParty//gmd:onlineresource//gmd://URL, gmd:name = 'json representation of organization'"-->
+      <json_url>https://www.federalregister.gov/api/v1/agencies/136.json</json_url>
+	  <!--"e.g. Justice Department; put in gmd:oranisationName@xlink:title"-->
+      <name>Energy Department</name>
+	  <!--id integer scoped to federal register; not sure what to do with this, but its in the json_url, so that may have to do.-->
+      <id>136</id>
+	  <!--e.g. 'https://www.federalregister.gov/agencies/justice-department' This looks suspiciously like its supposed to be an organization URI. put in gmd:oranisationName@xlink:href -->
+      <url>https://www.federalregister.gov/agencies/energy-department</url>
+    </item>
+    <item>
+      <parent_id>136</parent_id>
+      <raw_name>Western Area Power Administration</raw_name>
+      <json_url>https://www.federalregister.gov/api/v1/agencies/525.json</json_url>
+      <name>Western Area Power Administration</name>
+      <id>525</id>
+      <url>https://www.federalregister.gov/agencies/western-area-power-administration</url>
+    </item>
+  </agencies>
+  
+  <!--looks like the first part of the Citation ID string. redundant, don't map-->
+  <volume>79</volume>
+  <!--Assume put regulation ID number values here, with comments in regulation_id_info containing generic free text about the id.-->
+  <regulation_id_numbers/>
+  <!--another gmd:citation//gmd:identifier/gmd:code value for the notification-->
+  <document_number>2014-19960</document_number>
+  <!--no explanation of how this is supposed to get used-->
+  <corrections/>
+  <!-- No instruction *****************************************************************************-->
+  <cfr_references/>
+  <!--e.g. 'Notice of registration.'  gmd:keyword, with thesaurus = 'federal register actions-->
+  <action>Submission for Office of Management and Budget review; Request for comments.</action>
+  <!-- No instruction *************************************************************************************-->
+  <pdf_url>http://www.gpo.gov/fdsys/pkg/FR-2014-08-22/pdf/2014-19960.pdf</pdf_url>
+  <!--another gmd:citation//gmd:identifier/gmd:code; codespace = 'federal register docketID'"-->
+  <topics/>
+  <!--we can leave this one out (unless someone says we need it)-->
+  <significant>
+  </significant>
+  <!--gmd:citation//gmd:series//gmd:page/gco:CharacterString; concatenate 'start_page' & '-' & 'end_page' to form the character string",-->
+  <end_page>49774</end_page>
+  <!--SMRdocumentation: another gmd:citation//gmd:identifier/gmd:code; codespace = 'federal register docketID'-->
+  <docket_ids/>
+  <!--"public_inspection_pdf_url": "e.g. 'https://s3.amazonaws.com/public-inspection.federalregister.gov/2014-21083.pdf?1409748481'  Another distribution//gmd:CI_onlineResource//gmd:URL, with gmd:name= 'federal register public inspection document'",-->
+  <public_inspection_pdf_url>https://s3.amazonaws.com/public-inspection.federalregister.gov/2014-19960.pdf?1408652929</public_inspection_pdf_url>
+  <!--no idea how this is supposed to be used. If its a link to a record that this one supersedes, gmd:aggregationInfo relationship would make the most sense.-->
+  <correction_of/>
+  <!--SMRdocumentation: date for comment closing; important for NRRC notification system; put in gmd:citation//gmd:date with @dateType = 'comment closing date'-->
+  <comments_close_on>2014-09-22</comments_close_on>
+  <!--distribution, with gmd:name='HTML representation of notification-->
+  <html_url>https://www.federalregister.gov/articles/2014/08/22/2014-19960/agency-information-collection-extension</html_url>
+  <!--full_text_xml_url": "e.g. 'https://www.federalregister.gov/articles/xml/201/421/083.xml' another distribution, with gmd:name='XML representation of notification' -->
+  <full_text_xml_url>https://www.federalregister.gov/articles/xml/201/419/960.xml</full_text_xml_url>
+  <!-- "SMRdocumentation":"'regulations_dot_gov_info' value object is from another record; not entirely clear what this is supposed to be, but looks like a way to link in comments somehow; need more info.",-->
+  <regulations_dot_gov_info>
+    <comments_count>0</comments_count>
+    <title>Recently Posted WAPA Rules and Notices.</title>
+    <docket_id>WAPA_FRDOC_0001</docket_id>
+    <supporting_documents_count>0</supporting_documents_count>
+    <regulation_id_number/>
+	<!-- "SMRdocumentation":"'metadata' object value example is compiled from keys seen in results from federal register API","comments_count": 1-->
+    <metadata/>
+  </regulations_dot_gov_info>
+  <!--gmd:CI_Citation//gmd:date, dateType = 'publication'-->
+  <publication_date>2014-08-22</publication_date>
+  <!--
+  "raw_text_url": "e.g. 'https://www.federalregister.gov/articles/text/raw_text/201/421/083.txt'  yet another distribution, with gmd:CI_OnlineResource//gmd:name = 'federal register notification raw text'",
+            "html_url": "'https://www.federalregister.gov/articles/2014/09/04/2014-21083/importer-of-controlled-substances-registration-arizona-department-of-corrections-aspc-florence'. Yet another distribution, with gmd:CI_OnlineResource//gmd:name = 'federal register html page for notification'",
+            "excerpts": "e.g. ' &#8230; ACTION: \nNotice of registration. \nSUMMARY: \n<span class=\"match\">Arizona</span> Department of Corrections, ASPC-Florence &#8230;  controlled substance. The DEA grants <span class=\"match\">Arizona</span> Department of Corrections, ASPC-Florence &#8230; , <span class=\"match\">Arizona</span> Department of Corrections, ASPC-Florence, 1305 E. Butte Avenue, Florence, <span class=\"match\">Arizona</span> &#8230; '  SMRdocumentation: looks like html; append to the abstract?",
+  -->
+  
+  <!-- No instruction ***********************************************-->
+  <comment_url>http://www.regulations.gov/#!submitComment;D=WAPA_FRDOC_0001-0216</comment_url>
+  <!--'https://www.federalregister.gov/articles/html/abstract/201/421/083.html' Another distribution, with gmd:CI_OnlineResource//gmd:name = 'federal register notification html abstract'-->
+  <abstract_html_url>https://www.federalregister.gov/articles/html/abstract/201/419/960.html</abstract_html_url>
+</root>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ADWR20140815.xsd" generated="2014-08-15T15:43:36">
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-13</URL> 
+  <PlanningDoc_AgencyName>United States Department of Agriculture Forest Ser</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Kaibab National Forest- South Zone Revision Projec</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_County>Coconino</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Julie Rowe, Project Leader</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactEmail>comments-southwester-kaibab@fs.fed.us</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-06-01T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http://go.usa.gov/kpQV</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-05-02T00:00:00</PlanningDoc_ReceiveDate> 
+  	<westBoundLongitude>-113.56666691601</westBoundLongitude>
+	<eastBoundLongitude>-109.72145207227</eastBoundLongitude>
+	<southBoundLatitude>34.450981545348</southBoundLatitude>
+	<northBoundLatitude>37.001354729399</northBoundLatitude>
+  </qryADWRDS>
+<qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-21</URL> 
+  <PlanningDoc_AgencyName>Pinal County</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType /> 
+  <PlanningDoc_ProjectTitle>Pinal County Comprehensive Plan Major Amendment</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_Location>Portions of Sections 28, 29, and 32 Township 4 South, Range 10 East of the Gila and Salt River Merid</PlanningDoc_Location> 
+  <PlanningDoc_City>Florence</PlanningDoc_City> 
+  <PlanningDoc_County>Pinal</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Dedrick Denton</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>520-866-6642</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>dedrick.denton@pinalcountyaz.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-18T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-17T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PIN</PlanningDoc_AMA_INA> 
+    <westBoundLongitude>-111.51297239586</westBoundLongitude>
+	<eastBoundLongitude>-110.28250364586</eastBoundLongitude>
+	<southBoundLatitude>32.678788060634</southBoundLatitude>
+	<northBoundLatitude>33.287018675127</northBoundLatitude>
+  </qryADWRDS>
+<qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-22</URL> 
+  <PlanningDoc_AgencyName>City of Peoria</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>City</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>City of Peoria General Plan Amendments 2014</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_City>Peoria</PlanningDoc_City> 
+  <PlanningDoc_County>Maricopa</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Stacey Bridge-Denzak</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>623-773-7645</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>stacey.bridge-denzak@peoriaaz.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-18T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>www.peoriaaz.gov/2014GeneralPlanUpdate</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-19T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PHX</PlanningDoc_AMA_INA> 
+    	<westBoundLongitude>-112.29212783744</westBoundLongitude>
+	<eastBoundLongitude>-112.17265151908</eastBoundLongitude>
+	<southBoundLatitude>33.558898756361</southBoundLatitude>
+	<northBoundLatitude>33.621817162661</northBoundLatitude>
+  </qryADWRDS>
+<qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-23</URL> 
+  <PlanningDoc_AgencyName>City of Peoria</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>City</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>City of Peoria General Plan Amendments 2014</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_City>Peoria</PlanningDoc_City> 
+  <PlanningDoc_County>Maricopa</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Stacey Bridge-Denzak</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>623-773-7645</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>stacey.bridge-denzak@peoriaaz.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-18T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>https://www.peoriaaz.gov/NewSecondary.aspx?ekfrm=66455</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-19T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PHX</PlanningDoc_AMA_INA>
+  	<westBoundLongitude>-112.29212783744</westBoundLongitude>
+	<eastBoundLongitude>-112.17265151908</eastBoundLongitude>
+	<southBoundLatitude>33.558898756361</southBoundLatitude>
+	<northBoundLatitude>33.621817162661</northBoundLatitude>  
+  </qryADWRDS>
+<qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-27</URL> 
+  <PlanningDoc_AgencyName>City of Buckeye</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>City</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>City of Buckeye General Plan Amendment - Spurlock Ranch</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_City>Buckeye</PlanningDoc_City> 
+  <PlanningDoc_County>Maricopa</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Tony Hilgart</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>602-730-3818</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>tbonar@hilgartwilson.com</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-06-10T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>1</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-05-19T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PHX</PlanningDoc_AMA_INA> 
+    <westBoundLongitude>-112.69474899398</westBoundLongitude>
+	<eastBoundLongitude>-112.46952926741</eastBoundLongitude>
+	<southBoundLatitude>33.284093329342</southBoundLatitude>
+	<northBoundLatitude>33.472164690805</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-25</URL> 
+  <PlanningDoc_AgencyName>Pinal County</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType /> 
+  <PlanningDoc_ProjectTitle>Pinal</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_ProjectStartDate>2014-08-15T00:00:00</PlanningDoc_ProjectStartDate> 
+  <PlanningDoc_City>Florence</PlanningDoc_City> 
+  <PlanningDoc_County>Pinal</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Dedrick Denton</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>520-866-6642</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>dedrick.denton@pinalcountyaz.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-23T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PIN</PlanningDoc_AMA_INA>
+    <westBoundLongitude>-111.47127435543</westBoundLongitude>
+	<eastBoundLongitude>-111.28176019527</eastBoundLongitude>
+	<southBoundLatitude>32.965777934674</southBoundLatitude>
+	<northBoundLatitude>33.156833446445</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-24</URL> 
+  <PlanningDoc_AgencyName>US Department of Agriculture Forest Service</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Watts Vegetation Management Project 2014</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_Location>T29N, R5E, Sec. 1, 2, 3, 11, 12 and T30N, R5E, Sect. 26, 27, 34, 35, 36</PlanningDoc_Location> 
+  <PlanningDoc_City>Williams</PlanningDoc_City> 
+  <PlanningDoc_County>Coconino</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Mark Nabel</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>928-635-5600</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>comments-southwestern-kaibab-tusayan@fs.fed.us</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-09T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http://www.fs.usda.gov/projects/kaibab/landmanagement/projects</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-27T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+    	<westBoundLongitude>-112.42433832028</westBoundLongitude>
+	<eastBoundLongitude>-111.99587152341</eastBoundLongitude>
+	<southBoundLatitude>35.172427467585</southBoundLatitude>
+	<northBoundLatitude>35.407822682809</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-26</URL> 
+  <PlanningDoc_AgencyName>City of Mesa</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>City</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>City of Mesa General Plan Amendment</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_ProjectStartDate>2014-09-17T00:00:00</PlanningDoc_ProjectStartDate> 
+  <PlanningDoc_City>Mesa</PlanningDoc_City> 
+  <PlanningDoc_County>Maricopa</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Angelica Guevara</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>480-644-4771</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>angelica.guevara@mesaaz.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-27T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-09T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PHX</PlanningDoc_AMA_INA> 
+    	<westBoundLongitude>-111.95267530157</westBoundLongitude>
+	<eastBoundLongitude>-111.70548291876</eastBoundLongitude>
+	<southBoundLatitude>33.342728375653</southBoundLatitude>
+	<northBoundLatitude>33.594755869828</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-28</URL> 
+  <PlanningDoc_AgencyName>USDA</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Kaibab Test</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_FedID>12-345678</PlanningDoc_FedID> 
+  <PlanningDoc_ProjectStartDate>2014-08-14T00:00:00</PlanningDoc_ProjectStartDate> 
+  <PlanningDoc_City>Williams</PlanningDoc_City> 
+  <PlanningDoc_County>Coconino</PlanningDoc_County> 
+  <PlanningDoc_ContactName>joe smith</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>555-111-2222</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>someone@google.com</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-07-31T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http;//GOOGLE.COM</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-30T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+  	<westBoundLongitude>-112.42433832028</westBoundLongitude>
+	<eastBoundLongitude>-111.99587152341</eastBoundLongitude>
+	<southBoundLatitude>35.172427467585</southBoundLatitude>
+	<northBoundLatitude>35.407822682809</northBoundLatitude>  
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-29</URL> 
+  <PlanningDoc_AgencyName>USDA</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Kaibab Test</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_FedID>12-1234456</PlanningDoc_FedID> 
+  <PlanningDoc_ProjectStartDate>2014-08-22T00:00:00</PlanningDoc_ProjectStartDate> 
+  <PlanningDoc_City>Williams</PlanningDoc_City> 
+  <PlanningDoc_County>Cocon</PlanningDoc_County> 
+  <PlanningDoc_ContactEmail>someone@google.com</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-07-30T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http;//GOOGLE.COM</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-06-30T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+  	<westBoundLongitude>-112.42433832028</westBoundLongitude>
+	<eastBoundLongitude>-111.99587152341</eastBoundLongitude>
+	<southBoundLatitude>35.172427467585</southBoundLatitude>
+	<northBoundLatitude>35.407822682809</northBoundLatitude>  
+  </qryADWRDS>
+<qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-31</URL> 
+  <PlanningDoc_AgencyName>City of Casa Grande</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>City</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>General Plan Amendment- Phoenix Mart</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_Location>Soth of Cottonweeo between Evans and LaBrea</PlanningDoc_Location> 
+  <PlanningDoc_City>Casa Grande</PlanningDoc_City> 
+  <PlanningDoc_County>Pinal</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Leila DeMaree</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>520-421-8630</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>ldemaree@casagrandeaz.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-29T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-07-02T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>PIN</PlanningDoc_AMA_INA> 
+    <westBoundLongitude>-111.84855483936</westBoundLongitude>
+	<eastBoundLongitude>-111.68650649952</eastBoundLongitude>
+	<southBoundLatitude>32.825178256987</southBoundLatitude>
+	<northBoundLatitude>32.952029193273</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-32</URL> 
+  <PlanningDoc_AgencyName>Maricopa County</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>County</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Maricopa County Mesquite Solar Generating Facility</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_ContactName>Robert Kuhfss</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>602-506-6533</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>robertkuhfuss@mail.maricopa.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_AMA_INA>PHX</PlanningDoc_AMA_INA>
+    <westBoundLongitude>-113.23707707225</westBoundLongitude>
+	<eastBoundLongitude>-111.65504582225</eastBoundLongitude>
+	<southBoundLatitude>32.900131470669</southBoundLatitude>
+	<northBoundLatitude>34.018308353812</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-34</URL> 
+  <PlanningDoc_AgencyName>US Forest Service Department of Agriculture</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Tonto National Foreset Travel Managment EIS</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_County>Gila, Maricopa, Pinal, Yavapai</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Marianne Thomas</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>602-225-5213</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>comments-southwestern-TMRTonto@fs.fed.us</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-18T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http://www.fs.usda.gov/wps/portal/fsinternet/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os3gDfxMDT8MwRydLA1cj72BTUwMTAwgAykeaxRtBeY4WBv4eHmF-YT4GMHkidBvgAI6EdIeDXIvfdrAJuM3388jPTdUvyA2NMMgyUQQAyrgQmg!!/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfS000MjZOMDcxT1RVODBJN0o2MTJQRDMwODQ!/?project=28967</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+    <westBoundLongitude>-111.69299840929</westBoundLongitude>
+	<eastBoundLongitude>-110.47351598742</eastBoundLongitude>
+	<southBoundLatitude>33.182279632647</southBoundLatitude>
+	<northBoundLatitude>34.078718227795</northBoundLatitude>
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-35</URL> 
+  <PlanningDoc_AgencyName>US Forest Service Department of Agriculture</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Tonto National Foreset Travel Managment EIS</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_County>Gila, Maricopa, Pinal, Yavapai</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Marianne Thomas</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>602-225-5213</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>comments-southwestern-TMRTonto@fs.fed.us</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-18T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http://www.fs.usda.gov/wps/portal/fsinternet/!ut/p/c5/04_SB8K8xLLM9MSSzPy8xBz9CP0os3gDfxMDT8MwRydLA1cj72BTUwMTAwgAykeaxRtBeY4WBv4eHmF-YT4GMHkidBvgAI6EdIeDXIvfdrAJuM3388jPTdUvyA2NMMgyUQQAyrgQmg!!/dl3/d3/L2dJQSEvUUt3QS9ZQnZ3LzZfS000MjZOMDcxT1RVODBJN0o2MTJQRDMwODQ!/?project=28967</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+  	<westBoundLongitude>-111.69299840929</westBoundLongitude>
+	<eastBoundLongitude>-110.47351598742</eastBoundLongitude>
+	<southBoundLatitude>33.182279632647</southBoundLatitude>
+	<northBoundLatitude>34.078718227795</northBoundLatitude>  
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-41</URL> 
+  <PlanningDoc_AgencyName>US Department of the Interior</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>Navajo Generating Station – Kayenta Mine Complex Project Environmental Impact Statement</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_County>Navajo</PlanningDoc_County> 
+  <PlanningDoc_ContactName>Sandra Eto</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactPhone>623-773-6486</PlanningDoc_ContactPhone> 
+  <PlanningDoc_ContactEmail>ngskmc-eis@usbr.gov</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-31T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http://ngskmc-eis.net/</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_ReceiveDate>2014-07-24T00:00:00</PlanningDoc_ReceiveDate> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+  	<westBoundLongitude>-111.41334610059</westBoundLongitude>
+	<eastBoundLongitude>-110.05104141309</eastBoundLongitude>
+	<southBoundLatitude>33.871462670222</southBoundLatitude>
+	<northBoundLatitude>36.915772602363</northBoundLatitude>  
+  </qryADWRDS>
+ <qryADWRDS>
+  <URL>http://infoshare.azwater.gov/docushare/dsweb/Get/PlanningDoc-42</URL> 
+  <PlanningDoc_AgencyName>USDA Forest Service</PlanningDoc_AgencyName> 
+  <PlanningDoc_AgencyType>Federal</PlanningDoc_AgencyType> 
+  <PlanningDoc_ProjectTitle>US Forest Service Proposed Groundwater Directive</PlanningDoc_ProjectTitle> 
+  <PlanningDoc_ContactName>Troy Thompson</PlanningDoc_ContactName> 
+  <PlanningDoc_ContactEmail>fsm2500@fs.fed.us; trthomspon02@fs.fed.us</PlanningDoc_ContactEmail> 
+  <PlanningDoc_DeadlineDate>2014-08-04T00:00:00</PlanningDoc_DeadlineDate> 
+  <PlanningDoc_AdditionalInfo>http://www.fs.fed.us/geology/groundwater.html</PlanningDoc_AdditionalInfo> 
+  <PlanningDoc_ADWRComments>0</PlanningDoc_ADWRComments> 
+  <PlanningDoc_ReviewComplete>0</PlanningDoc_ReviewComplete> 
+  <PlanningDoc_AMA_INA>OUT</PlanningDoc_AMA_INA>
+  	<westBoundLongitude>-114.52946931124</westBoundLongitude>
+	<eastBoundLongitude>-109.08025056123</eastBoundLongitude>
+	<southBoundLatitude>31.539384542704</southBoundLatitude>
+	<northBoundLatitude>37.123690893026</northBoundLatitude>  
+  </qryADWRDS>
+  </dataroot>
