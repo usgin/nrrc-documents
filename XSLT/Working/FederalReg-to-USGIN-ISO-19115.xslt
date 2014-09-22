@@ -19,12 +19,11 @@
 			<gmd:language>
 				<gco:CharacterString>eng</gco:CharacterString>
 			</gmd:language>
-
 			<gmd:characterSet>
 				<gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">UTF-8</gmd:MD_CharacterSetCode>
 			</gmd:characterSet>
 
-			<xsl:apply-templates select="resource_type"/>
+			<xsl:apply-templates select="type"/>
 
 			<gmd:contact>
 				<gmd:CI_ResponsibleParty>
@@ -121,143 +120,15 @@
 											</xsl:call-template>			
 										</gco:DateTime>
 									</gmd:date>
-
 									<gmd:dateType>
 										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
 									</gmd:dateType>
 								</gmd:CI_Date>
 							</gmd:date>
+							<xsl:call-template name="usgin:micDates"/>	
+							<xsl:call-template name="usgin:citations"/>	
 
-							<xsl:if test="string-length(effective_on)>0">
-								<gmd:date>
-									<gmd:CI_Date>
-										<gmd:date>
-											<gco:DateTime>		
-												<xsl:value-of select="concat(effective_on,'T12:00:00Z')"/>
-											</gco:DateTime>
-										</gmd:date>
-										<gmd:dateType>
-											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="federal_register">federal_register</gmd:CI_DateTypeCode>
-										</gmd:dateType>
-									</gmd:CI_Date>
-								</gmd:date>
-							</xsl:if>
-
-							<xsl:if test="string-length(comments_close_on)>0">
-								<gmd:date>
-									<gmd:CI_Date>
-										<gmd:date>
-											<gco:DateTime>		
-												<xsl:value-of select="concat(comments_close_on,'T12:00:00Z')"/>
-											</gco:DateTime>
-										</gmd:date>
-										<gmd:dateType>
-											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="comment closing date">comment closing date</gmd:CI_DateTypeCode>
-										</gmd:dateType>
-									</gmd:CI_Date>
-								</gmd:date>
-							</xsl:if>
-
-							<xsl:if test="string-length(signing_date)>0">
-								<gmd:date>
-									<gmd:CI_Date>
-										<gmd:date>
-											<gco:DateTime>		
-												<xsl:value-of select="concat(signing_date,'T12:00:00Z')"/>
-											</gco:DateTime>
-										</gmd:date>
-										<gmd:dateType>
-											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="comment closing date">comment closing date</gmd:CI_DateTypeCode>
-										</gmd:dateType>
-									</gmd:CI_Date>
-								</gmd:date>
-							</xsl:if>
-
-
-							<xsl:if test="citation">
-								<gmd:identifier>
-									<gmd:MD_Identifier>
-									
-									<gmd:authority>
-					<xsl:attribute name="xlink:title"><xsl:value-of select="'/root/citation'"></xsl:value-of></xsl:attribute>
-									</gmd:authority>
-									
-									
-										<gmd:code>
-											<gco:CharacterString>
-												<xsl:value-of select="citation"/>								
-											</gco:CharacterString>
-										</gmd:code>
-									</gmd:MD_Identifier>
-								</gmd:identifier>
-							</xsl:if>
-							<xsl:if test="mods_url">	
-								<gmd:identifier>
-									<gmd:MD_Identifier>
-										<gmd:code>
-											<gco:CharacterString>
-												<xsl:value-of select="mods_url"/>								
-											</gco:CharacterString>
-										</gmd:code>
-									</gmd:MD_Identifier>
-								</gmd:identifier>
-							</xsl:if>
-							<xsl:if test="string-length(executive_order_number)>0">
-								<gmd:identifier>
-									<gmd:MD_Identifier>
-										<gmd:code>
-											<gco:CharacterString>
-												<xsl:value-of select="executive_order_number"/>								
-											</gco:CharacterString>
-										</gmd:code>
-									</gmd:MD_Identifier>
-								</gmd:identifier>		
-							</xsl:if>	
-							<xsl:if test="string-length(document_number)>0">
-								<gmd:identifier>
-									<gmd:MD_Identifier>
-										<gmd:code>
-											<gco:CharacterString>
-												<xsl:value-of select="document_number"/>								
-											</gco:CharacterString>
-										</gmd:code>
-									</gmd:MD_Identifier>
-								</gmd:identifier>		
-							</xsl:if>
-							
-							
-							
-							<xsl:if test="string-length(topics)>0">
-								<gmd:identifier>
-									<gmd:MD_Identifier>
-									<gmd:authority xlink:codespace="">
-					<xsl:attribute name="xlink:codespace"><xsl:value-of select="."></xsl:value-of></xsl:attribute>
-									</gmd:authority>
-										<gmd:code>
-											<gco:CharacterString>
-												<xsl:value-of select="topics"/>								
-											</gco:CharacterString>
-										</gmd:code>
-									</gmd:MD_Identifier>
-								</gmd:identifier>		
-							</xsl:if>
-							
-							
-							
-							<xsl:if test="string-length(docket_ids/item)>0">
-								<gmd:identifier>
-									<gmd:MD_Identifier>
-										<gmd:code>
-											<gco:CharacterString>
-												<xsl:value-of select="docket_ids/item"/>								
-											</gco:CharacterString>
-										</gmd:code>
-									</gmd:MD_Identifier>
-								</gmd:identifier>		
-							</xsl:if>
-
-
-
+<!-- agencies-->
 
 							<!-- there are multiple authors on some resoruces, so have to allow for multiple individual names; each gets a citedResponsibleParty element. The csv scheme doesn't allow different bindings between organizations and individuals in this context... -->
 							<xsl:choose>
@@ -396,10 +267,6 @@
 									</gmd:page>
 								</gmd:CI_Series>
 							</gmd:series>
-
-
-
-
 						</gmd:CI_Citation>
 					</gmd:citation>
 					<gmd:abstract>
@@ -640,9 +507,6 @@
 		</gmd:MD_Metadata>
 	</xsl:template>
 
-
-
-
 	<!-- Will be matching many -->
 	<xsl:template match="metadata_uuid">
 		<gmd:fileIdentifier>
@@ -651,7 +515,11 @@
 			</gco:CharacterString>
 		</gmd:fileIdentifier>
 	</xsl:template>
-	<xsl:template match="resource_type">
+	
+	
+	
+	
+	<xsl:template match="type">
 		<gmd:hierarchyLevel>
 			<gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="">
 				<xsl:attribute name="codeListValue"><xsl:text>dataset</xsl:text></xsl:attribute>
@@ -667,11 +535,10 @@
 		</gmd:hierarchyLevel>
 		<gmd:hierarchyLevelName>
 			<gco:CharacterString>
-				<xsl:value-of select="type"/>
+				<xsl:value-of select="."/>
 			</gco:CharacterString>
 		</gmd:hierarchyLevelName>
 	</xsl:template>
-
 	<!--originator information -->
 
 	<xsl:template match="originator_contact_person_name">
@@ -1503,6 +1370,177 @@
 		</xsl:choose>	
 		<!-- end of inputDate handler -->	
 	</xsl:template>
+<xsl:template name="usgin:micDates">
+
+<!-- use href:#-->
+							<xsl:if test="string-length(effective_on)>0">
+								<gmd:date>
+									<gmd:CI_Date>
+										<gmd:date>
+											<gco:DateTime>		
+												<xsl:value-of select="concat(effective_on,'T12:00:00Z')"/>
+											</gco:DateTime>
+										</gmd:date>
+										<gmd:dateType>
+											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="federal_register">federal_register</gmd:CI_DateTypeCode>
+										</gmd:dateType>
+									</gmd:CI_Date>
+								</gmd:date>
+							</xsl:if>
+
+							<xsl:if test="string-length(comments_close_on)>0">
+								<gmd:date>
+									<gmd:CI_Date>
+										<gmd:date>
+											<gco:DateTime>		
+												<xsl:value-of select="concat(comments_close_on,'T12:00:00Z')"/>
+											</gco:DateTime>
+										</gmd:date>
+										<gmd:dateType>
+											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="comment closing date">comment closing date</gmd:CI_DateTypeCode>
+										</gmd:dateType>
+									</gmd:CI_Date>
+								</gmd:date>
+							</xsl:if>
+
+							<xsl:if test="string-length(signing_date)>0">
+								<gmd:date>
+									<gmd:CI_Date>
+										<gmd:date>
+											<gco:DateTime>		
+												<xsl:value-of select="concat(signing_date,'T12:00:00Z')"/>
+											</gco:DateTime>
+										</gmd:date>
+										<gmd:dateType>
+											<gmd:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="comment closing date">comment closing date</gmd:CI_DateTypeCode>
+										</gmd:dateType>
+									</gmd:CI_Date>
+								</gmd:date>
+							</xsl:if>
+
+
+
+</xsl:template>
+
+
+			<xsl:template name="usgin:citations">
+						<xsl:if test="string-length(citation)>0">
+								<gmd:identifier>
+									<gmd:MD_Identifier>
+									<gmd:authority>
+					<xsl:attribute name="xlink:href"><xsl:value-of select="'https://www.federalregister.gov#citation'"></xsl:value-of></xsl:attribute>
+									</gmd:authority>
+									<gmd:code>
+											<gco:CharacterString>
+												<xsl:value-of select="citation"/>								
+											</gco:CharacterString>
+										</gmd:code>
+									</gmd:MD_Identifier>
+								</gmd:identifier>
+								</xsl:if>
+							<xsl:if test="string-length(mods_url)>0">	
+								<gmd:identifier>
+									<gmd:MD_Identifier>
+									<gmd:authority>
+					<xsl:attribute name="xlink:href"><xsl:value-of select="'https://www.federalregister.gov#mods_url'"></xsl:value-of></xsl:attribute>
+									</gmd:authority>
+										<gmd:code>
+											<gco:CharacterString>
+												<xsl:value-of select="mods_url"/>								
+											</gco:CharacterString>
+										</gmd:code>
+									</gmd:MD_Identifier>
+								</gmd:identifier>
+							</xsl:if>
+							
+							
+							<xsl:if test="string-length(executive_order_number)>0">
+								<gmd:identifier>
+									<gmd:MD_Identifier>
+									<gmd:authority>
+					<xsl:attribute name="xlink:href"><xsl:value-of select="'https://www.federalregister.gov#executive_order_number'"></xsl:value-of></xsl:attribute>
+									</gmd:authority>
+										<gmd:code>
+											<gco:CharacterString>
+												<xsl:value-of select="executive_order_number"/>								
+											</gco:CharacterString>
+										</gmd:code>
+									</gmd:MD_Identifier>
+								</gmd:identifier>		
+							</xsl:if>	
+							<xsl:if test="string-length(document_number)>0">
+								<gmd:identifier>
+									<gmd:MD_Identifier>
+									<gmd:authority>
+					<xsl:attribute name="xlink:href"><xsl:value-of select="'https://www.federalregister.gov#document_number'"></xsl:value-of></xsl:attribute>
+									</gmd:authority>
+										<gmd:code>
+											<gco:CharacterString>
+												<xsl:value-of select="document_number"/>								
+											</gco:CharacterString>
+										</gmd:code>
+									</gmd:MD_Identifier>
+								</gmd:identifier>		
+							</xsl:if>
+									
+							
+							<xsl:if test="string-length(topics)>0">
+								<gmd:identifier>
+									<gmd:MD_Identifier>
+									<gmd:authority>
+					<xsl:attribute name="xlink:href"><xsl:value-of select="'https://www.federalregister.gov#topics'"></xsl:value-of></xsl:attribute>
+									</gmd:authority>
+										<gmd:code>
+											<gco:CharacterString>
+												<xsl:value-of select="topics"/>								
+											</gco:CharacterString>
+										</gmd:code>
+									</gmd:MD_Identifier>
+								</gmd:identifier>		
+							</xsl:if>	
+							
+							
+							<xsl:if test="string-length(docket_ids/item)>0">
+								<gmd:identifier>
+									<gmd:MD_Identifier>
+									<gmd:authority>
+					<xsl:attribute name="xlink:href"><xsl:value-of select="'https://www.federalregister.gov#docket_ids'"></xsl:value-of></xsl:attribute>
+									</gmd:authority>
+										<gmd:code>
+											<gco:CharacterString>
+												<xsl:value-of select="docket_ids/item"/>								
+											</gco:CharacterString>
+										</gmd:code>
+									</gmd:MD_Identifier>
+								</gmd:identifier>		
+							</xsl:if>
+</xsl:template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </xsl:stylesheet>
